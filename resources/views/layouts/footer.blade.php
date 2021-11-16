@@ -13,7 +13,12 @@
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/music_lectures">
+                    <a href="/blog">
+                        Blog
+                    </a>
+                </li>
+                <li class="pb-1">
+                    <a href="/music_lessons">
                         Online Classes
                     </a>
                 </li>
@@ -23,10 +28,11 @@
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/register">
+                    <a href="#">
                         Register
                     </a>
                 </li>
+
 
             </ul>
         </div>
