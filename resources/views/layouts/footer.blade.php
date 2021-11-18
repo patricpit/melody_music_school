@@ -97,7 +97,7 @@
             </ul>
         </div>
     </div>
-    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
+    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead text-center">
         Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
     </p>
 </footer>
