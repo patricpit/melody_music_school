@@ -35,7 +35,8 @@
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Melody-Music School') }}
+                        <!-- {{ config('app.name', 'Melody-Music School') }} -->
+                        <img src="{{ URL::to('/img/mms.png') }}">
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base bg-transparent">
@@ -643,8 +644,8 @@
             </ul>
         </div>
     </div>
-    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead text-center">
-      Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
+    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead">
+        Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
     </p>
 </footer>
 
