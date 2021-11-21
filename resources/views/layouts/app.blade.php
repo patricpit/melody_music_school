@@ -29,10 +29,11 @@
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/music_lessons">Online Classes</a>
+                    <a class="no-underline hover:underline" href="/enroll">Enroll</a>
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="no-underline hover:underline" href="#"></a> 
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>

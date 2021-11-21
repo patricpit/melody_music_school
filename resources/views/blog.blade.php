@@ -39,14 +39,15 @@
                         <img src="{{ URL::to('/img/mms.png') }}">
                     </a>
                 </div>
-                <nav class="space-x-4 text-gray-300 text-sm sm:text-base bg-transparent">
-                    <a class="no-underline hover:underline color-me" href="/">Home</a>
+                <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                    <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/music_lessons">Online Classes</a>
+                    <a class="no-underline hover:underline" href="/enroll">Enroll</a>
                     @guest
-                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="#">{{ __('Register') }}</a>
+                            <a class="no-underline hover:underline" href="#"></a> 
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
@@ -570,16 +571,15 @@
                     </a>
                 </li>
                 <li class="pb-1">
+                    <a href="/enroll">
+                        Enroll
+                    </a>
+                </li>
+                <li class="pb-1">
                     <a href="/login">
                         Login
                     </a>
                 </li>
-                <li class="pb-1">
-                    <a href="#">
-                        Register
-                    </a>
-                </li>
-
 
             </ul>
         </div>
