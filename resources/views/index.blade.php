@@ -10,7 +10,7 @@
                     Music is Life...
                 </h1>
                 <a
-                    href="/music_lessons"
+                    href="/blog"
                     class="text-center bg-green-50 text-gray-700 py-2 px-4
                     font-bold text-xl uppercase">
                     Read More
