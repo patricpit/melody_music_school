@@ -17,7 +17,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Melody-Music School') }}</title>
+    <title>{{ config('app.name', 'Melody Music School') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>  
@@ -369,7 +369,7 @@
               <div class="card bg-light">
                 <div class="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    src="{{ URL::to('/images/instr_1.jpg') }}"
                     class="rounded-circle mb-3"
                     alt=""
                   />
@@ -390,7 +390,7 @@
               <div class="card bg-light">
                 <div class="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/women/11.jpg"
+                    src="{{ URL::to('/images/instr_2.jpg') }}"
                     class="rounded-circle mb-3"
                     alt=""
                   />
@@ -411,7 +411,7 @@
               <div class="card bg-light">
                 <div class="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/men/12.jpg"
+                    src="{{ URL::to('/images/instr_3.jpg') }}"
                     class="rounded-circle mb-3"
                     alt=""
                   />
@@ -432,7 +432,7 @@
               <div class="card bg-light">
                 <div class="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/women/12.jpg"
+                    src="{{ URL::to('/images/instr_4.jpg') }}"
                     class="rounded-circle mb-3"
                     alt=""
                   />
@@ -449,7 +449,73 @@
               </div>
             </div>
           </div>
+      
+        <br/>
+        <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="{{ URL::to('/images/instr_5.jpg') }}"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+        
+        <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="{{ URL::to('/images/instr_6.jpg') }}"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="{{ URL::to('/images/instr_7.jpg') }}"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+
         </div>
+      </div>
       </section>
 
 <!-- Contact & Map -->

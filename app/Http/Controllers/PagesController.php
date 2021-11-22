@@ -16,6 +16,11 @@ class PagesController extends Controller
         return view('blog');
     }
 
+    public function enroll()
+    {
+        return view('enroll');
+    }
+
     /* public function about()
     {
 

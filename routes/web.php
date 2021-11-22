@@ -32,3 +32,5 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 
 Route::get('/blog', [\App\Http\Controllers\PagesController::class, 'blog'])->name('blog');
 
+Route::get('/enroll', [\App\Http\Controllers\PagesController::class, 'enroll'])->name('enroll');
+
