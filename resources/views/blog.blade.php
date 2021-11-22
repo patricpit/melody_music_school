@@ -120,6 +120,7 @@
                            <p class="card-text">
                              Online classes with video tutorials. Music learning, even on the go.  
                            </p>
+                           <br/>
                            <a href="#" class ="btn btn-primary">Read More</a>  
                         </div>
                     </div>
@@ -136,6 +137,7 @@
                            <p class="card-text">
                              Seasoned professional instructors, with over 5 years work experience.  
                            </p>
+                           <br/>
                            <a href="#" class ="btn btn-dark">Read More</a>  
                         </div>
                     </div>
@@ -152,6 +154,7 @@
                            <p class="card-text">
                              One on one tutoring and instrument learning.    
                            </p>
+                           <br/>
                            <a href="#" class ="btn btn-primary">Read More</a>  
                         </div>
                     </div>
@@ -168,10 +171,12 @@
                     <img src="img/mi_9.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md p-5">
-                    <h2>Music and it's Purpose</h2>
+                    <h2><b>Music and it's Purpose</b></h2>
+                    <br/>
                     <p class="lead">
                       Music's purpose is to express and modulate emotion. Music's primary use is mood control. We sing lullabies to soothe babies – which works very well when language fails. ... 
                     </p>
+                    <br/>
                     <p>Through the years, music has also served cultures as a medium to tell stories which should be passed down through generations.</p>
                     <a href="#" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right"></i> Read More
@@ -185,11 +190,13 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md p-5">
-                    <h2>Elements of Music</h2>
+                    <h2><b>Elements of Music</b></h2>
+                    <br/>
                     <p class="lead">
-                      <p><b><em>Melody</em></b></p>
+                      <p><b>Melody</b></p>
                       We might consider melody to be the single most important element within a song. In everyday language, this is the element we call ‘the tune’. In technical terms, however, the melody is a series of pitches, or notes, that are organised to form a shape or pattern. Each individual note is given a length determined by the rhythm of the melody, so we might think of melody as ‘pitch plus time’.
                     </p>
+                    <br/>
                     <a href="#" class="btn-btn-light mt-3">
                         <a href="#" class ="btn btn-primary">Read More</a>
                     </a>
