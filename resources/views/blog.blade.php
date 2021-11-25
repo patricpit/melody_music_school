@@ -358,7 +358,7 @@
         <div class="container">
           <h2 class="text-center text-white">Our Instructors</h2>
           <p class="lead text-center text-white mb-5">
-            Our instructors all have 5+ years working as music instructors in the
+            Our instructors all have 2+ years working as music instructors in the
             industry
           </p>
           <div class="row g-4">
@@ -370,7 +370,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Desmond Okeke</h3>
+                  <h3 class="card-title mb-3"><strong>Desmond Okeke</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -391,7 +391,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Chioma Anosike</h3>
+                  <h3 class="card-title mb-3"><strong>Chioma Anosike</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -412,7 +412,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Daniel Omeaku</h3>
+                  <h3 class="card-title mb-3"><strong>Daniel Omeaku</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -433,7 +433,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Rita Chukwunenye</h3>
+                  <h3 class="card-title mb-3"><strong>Rita Chukwunenye</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -457,7 +457,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Agnes Anosike</h3>
+                  <h3 class="card-title mb-3"><strong>Agnes Anosike</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -478,7 +478,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Angela Anosike</h3>
+                  <h3 class="card-title mb-3"><strong>Angela Anosike</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -498,7 +498,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Nnena Mgbenwelu</h3>
+                  <h3 class="card-title mb-3"><strong>Nnena Mgbenwelu</strong></h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
