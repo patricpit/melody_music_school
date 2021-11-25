@@ -107,4 +107,5 @@
             <img src="https://cdn.pixabay.com/photo/2017/07/12/10/44/orchestra-2496505_960_720.jpg" width="700" alt="">
         </div>
     </div>
+
 @endsection

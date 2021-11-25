@@ -74,13 +74,10 @@
                 <div>
                     <h1>Learn how to <span class="text-warning">Sing</span> and <span class="text-warning">Play</span> a Musical Instrument</h1>
                 <p class="lead my-4">We focus on teaching the fundamentals of music.</p>
-                <button
-              class="btn btn-primary btn-lg"
-              data-bs-toggle="modal"
-              data-bs-target="#enroll"
-            >
-              Start The Enrollment
-            </button>
+                <a
+                  class="btn btn-primary btn-lg" href="/enroll">
+                    Start The Enrollment
+</a>
                 </div>
                 <img class="img-fluid w-50 d-none d-sm-block" src="img/music.svg" alt="">
             </div>
@@ -373,7 +370,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">John Doe</h3>
+                  <h3 class="card-title mb-3">Desmond Okeke</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -394,7 +391,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <h3 class="card-title mb-3">Chioma Anosike</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -415,7 +412,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Steve Smith</h3>
+                  <h3 class="card-title mb-3">Daniel Omeaku</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -436,7 +433,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Sara Smith</h3>
+                  <h3 class="card-title mb-3">Rita Chukwunenye</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -460,7 +457,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <h3 class="card-title mb-3">Agnes Anosike</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -481,7 +478,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <h3 class="card-title mb-3">Angela Anosike</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -501,7 +498,7 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <h3 class="card-title mb-3">Nnena Mgbenwelu</h3>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
@@ -557,7 +554,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+          <h5 class="modal-title" id="enrollLabel">Enrollment Form</h5>
           <button
             type="button"
             class="btn-close"
@@ -720,6 +717,7 @@
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead">
         Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
     </p>
+
 </footer>
 
 </body>
