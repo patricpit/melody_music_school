@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Auth\Passwords\CanResetPassword;
 
 class User extends Authenticatable
 {
@@ -23,6 +25,8 @@ class User extends Authenticatable
         'phone',
         'address',
         'password',
+        'created_at',
+		'updated_at'
     ];
 
     /**
@@ -33,7 +37,6 @@ class User extends Authenticatable
     protected $hidden = [
         'password',
         'remember_token',
-        'updated_at',
     ];
 
     /**
@@ -44,6 +47,39 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    // public function setPasswordAttribute($password)
+    // {
+    //     $this->attributes['password'] = Hash::make($password);
+    // }
+
+    public function roles()
+    {
+        return $this->belongsToMany('App\Models\Role');
+    }
+
+    /**
+     * Check if the user has a role
+     * @param string $role
+     * @return bool
+     */
+
+    public function hasAnyRole(string $role)
+    {
+        return null!== $this->roles()->where('name', $role)->first();
+    }
+
+    /**
+     * Check the user has any given role
+     * @param array $role
+     * @return bool
+     */
+
+    public function hasAnyRoles(array $role)
+    {
+        return null!== $this->roles()->whereIn('name', $role)->first();
+    }
 
     public function post()
     {

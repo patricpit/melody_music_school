@@ -1,70 +1,6 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-<link rel="stylesheet" href="style1.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
-
-
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Melody Music School') }}</title>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>  
-    
-    <!-- Styles -->
-     <link href="{{ mix('css/app.css') }}" rel="stylesheet"> 
-    
-
-</head>
-
-
-<body class="bg-gray-100 h-screen antialiased leading-none font-sans">
-    <div id="app">
-        <header class="bg-green-800 py-6">
-            <div class="container mx-auto flex justify-between items-center px-6">
-                <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        <!-- {{ config('app.name', 'Melody-Music School') }} -->
-                        <img src="{{ URL::to('/img/mms.png') }}">
-                    </a>
-                </div>
-                <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
-                    <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
-                    <a class="no-underline hover:underline" href="/music_lessons">Online Classes</a>
-                    <a class="no-underline hover:underline" href="/enroll">Enroll</a>
-                    @guest
-                    <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="#"></a> 
-                        @endif
-                    @else
-                        <span>{{ Auth::user()->name }}</span>
-
-                        <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
-                           onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
-                            {{ csrf_field() }}
-                        </form>
-                    @endguest
-                </nav>
-            </div>
-        </header>
-
-
+@section('content')
 
 
     <!-- Showcase -->
@@ -75,7 +11,7 @@
                     <h1>Learn how to <span class="text-warning">Sing</span> and <span class="text-warning">Play</span> a Musical Instrument</h1>
                 <p class="lead my-4">We focus on teaching the fundamentals of music.</p>
                 <a
-                  class="btn btn-primary btn-lg" href="/enroll">
+                  class="btn btn-primary btn-lg" href="{{ route('register') }}">
                     Start The Enrollment
 </a>
                 </div>
@@ -132,7 +68,7 @@
                                Professionals
                            </h3> 
                            <p class="card-text">
-                             Seasoned professional instructors, with over 5 years work experience.  
+                             Seasoned professional instructors, with over 3 years work experience.  
                            </p>
                            <br/>
                            <a href="#" class ="btn btn-dark">Read More</a>  
@@ -358,7 +294,7 @@
         <div class="container">
           <h2 class="text-center text-white">Our Instructors</h2>
           <p class="lead text-center text-white mb-5">
-            Our instructors all have 2+ years working as music instructors in the
+            Our instructors all have 3+ years working as music instructors in the
             industry
           </p>
           <div class="row g-4">
@@ -617,108 +553,4 @@
     })
   </script>
 
-<footer class="bg-green-800 py-20 mt-20">
-    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-green-700">
-        <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
-                Pages
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-100">
-                <li class="pb-1">
-                    <a href="/">
-                        Home
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/blog">
-                        Blog
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/music_lessons">
-                        Online Classes
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/enroll">
-                        Enroll
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/login">
-                        Login
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-        <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
-                Find Us
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-100">
-                <li class="pb-1">
-                    <a href="/">
-                        What we do
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Address
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Phone
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-        <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
-                Latest Posts
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-100">
-                <li class="pb-1">
-                    <a href="/">
-                        Why we love music
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Musical instruments
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        4 most used chords in music
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Musical notes
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead">
-        Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
-    </p>
-
-</footer>
-
-</body>
-</html>
+@endsection

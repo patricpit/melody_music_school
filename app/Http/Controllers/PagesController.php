@@ -21,9 +21,9 @@ class PagesController extends Controller
         return view('enroll');
     }
 
-    /* public function about()
+    public function about()
     {
-
+        return view('about');
     }
-       You can add more pages*/
+       
 }

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app1')
 
 @section('content')
 <div class="w-4/5 m-auto text-center">
@@ -17,7 +17,7 @@
     </div>
 @endif
 
-@if (Auth::check())
+@can('is-instructor')
 <div check="pt-15 w-4/5 m-auto">
         <a 
             href="/music_lessons/create"
@@ -26,8 +26,8 @@
             Create post
         </a>
 </div>
+@endcan
 
-@endif
 
 @foreach ($posts as $post)
 <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b
@@ -81,6 +81,5 @@ border-gray-200">
     </div>
 </div>
 @endforeach
-
 
 @endsection

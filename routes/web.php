@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\Admin\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +25,7 @@ use App\Http\Controllers\PostsController;
 
 Route::get('/', [PagesController::class, 'index']);
 
-Route::resource('/music_lessons', PostsController::class);
+
 
 Auth::routes();
 
@@ -33,4 +34,17 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/blog', [\App\Http\Controllers\PagesController::class, 'blog'])->name('blog');
 
 Route::get('/enroll', [\App\Http\Controllers\PagesController::class, 'enroll'])->name('enroll');
+
+Route::get('/about', [\App\Http\Controllers\PagesController::class, 'about'])->name('about');
+
+//Admin Routes
+Route::prefix('admin')->middleware(['auth', 'auth.isAdmin', 'verified'])->name('admin.')->group(function (){
+    Route::resource('/users', UserController::class);      
+});
+
+Route::middleware(['auth'])->group(function () {
+    Route::resource('/music_lessons', PostsController::class);
+});
+
+
 

@@ -53,7 +53,7 @@
                         <input id="phone" type="text" class="form-input w-full @error('phone')  border-red-500 @enderror"
                             name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
 
-                        @error('name')
+                        @error('phone')
                         <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>
@@ -68,7 +68,7 @@
                         <input id="address" type="text" class="form-input w-full @error('address')  border-red-500 @enderror"
                             name="address" value="{{ old('address') }}" required autocomplete="address" autofocus>
 
-                        @error('name')
+                        @error('address')
                         <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>

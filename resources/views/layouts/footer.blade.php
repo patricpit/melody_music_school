@@ -18,21 +18,27 @@
                     </a>
                 </li>
                 <li class="pb-1">
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+                @can('logged-in')
+                <li class="pb-1">
                     <a href="/music_lessons">
                         Online Classes
                     </a>
                 </li>
+                @endcan
                 <li class="pb-1">
-                    <a href="/enroll">
-                        Enroll
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/login">
+                    <a href="{{ route('login') }}">
                         Login
                     </a>
                 </li>
-
+                <li class="pb-1">
+                    <a href="{{ route('register') }}">
+                        Enroll
+                    </a>
+                </li>
 
             </ul>
         </div>
@@ -93,8 +99,8 @@
                         Musical notes
                     </a>
                 </li>
-
             </ul>
+
         </div>
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead text-center">
