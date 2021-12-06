@@ -38,7 +38,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit, distinctio.
             </p>
 
-            <a href="/music_lessons"
+            <a href="/blog"
             class="uppercase bg-blue-500 text-gray-100 text-s
             font-extrabold py-3 px-8 rounded-3xl">
             Find Out More
@@ -95,7 +95,7 @@
                 </h3>
 
                 <a 
-                    href=""
+                    href="/blog"
                     class="uppercase bg-transparent border-2 border-green-100
                     text-gray-100 texr-xs font-extrabold py-3 px-5 rounded-3xl">
                     Find Out More
