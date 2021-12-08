@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.mobile')
 
 @section('content')
 <div class="w-4/5 m-auto text-left">

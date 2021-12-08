@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.mobile')
 
 @section('content')
     <div class="background-image grid grd-cols-1 m-auto">
@@ -22,7 +22,7 @@
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b
     border-green-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2017/12/06/22/11/glasses-3002751_960_720.jpg" width="700" alt="">
+            <img src="https://cdn.pixabay.com/photo/2017/12/06/22/11/glasses-3002751_960_720.jpg" width="700" alt="" class="img-fluid">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">

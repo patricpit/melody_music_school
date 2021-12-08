@@ -25,21 +25,31 @@
                 @can('logged-in')
                 <li class="pb-1">
                     <a href="/music_lessons">
-                        Online Classes
+                        Online-Classes
                     </a>
                 </li>
                 @endcan
+                @can('is-admin')
+                <li class="pb-1">
+                    <a href="{{ route('admin.users.index') }}">
+                        Users
+                    </a>
+                </li>
+                @endcan
+                @guest
                 <li class="pb-1">
                     <a href="{{ route('login') }}">
                         Login
                     </a>
                 </li>
+                @if (Route::has('register'))
                 <li class="pb-1">
                     <a href="{{ route('register') }}">
                         Enroll
                     </a>
                 </li>
-
+                @endif
+                @endguest
             </ul>
         </div>
 
