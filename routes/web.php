@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,5 +47,8 @@ Route::middleware(['auth'])->group(function () {
     Route::resource('/music_lessons', PostsController::class);
 });
 
+Route::get('/upload',[\App\Http\Controllers\UploadController::class, 'uploadForm']);
+
+Route::post('/upload', [\App\Http\Controllers\UploadController::class, 'uploadFile'])->name('upload.uploadFile');
 
 

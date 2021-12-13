@@ -32,6 +32,8 @@ class Posts extends Migration
      */
     public function down()
     {
-        //
+        Schema::create('posts', function(Blueprint $table){
+            $table->dropColumn('image_path');
+        });
     }
 }

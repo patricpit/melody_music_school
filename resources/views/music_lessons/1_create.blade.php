@@ -1,15 +1,6 @@
 @extends('layouts.mobile')
 
 @section('content')
-<br><br><br>
-<div check="pt-15 w-4/5 m-auto">
-        <a 
-            href="/music_lessons"
-            class="bg-blue-500 uppercase bg-transparent text-gray-100
-            text-xs font-extrabold py-3 px-5 rounded-3xl">
-            Go Back
-        </a>
-</div>
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
         <h1 class="text-6xl">
@@ -34,7 +25,7 @@
 <div class="w-4/5 m-auto pt-20">
     <form
         action="/music_lessons"
-        method="Post" action="{{ route('upload.uploadFile') }}"
+        method="Post"
         enctype="multipart/form-data">
         @csrf
 
@@ -60,11 +51,8 @@
                 </span>
                 <input
                     type="file"
-                    name="file"
-                    id="file"
-                    class="hidden"/> 
-
-                
+                    name="image"
+                    class="hidden">                 
             </label>
         </div>
 

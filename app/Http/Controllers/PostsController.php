@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use Cviebrock\EloquentSluggable\Services\SlugService;
+use Illuminute\Support\Facades\Storage;
 
 class PostsController extends Controller
 {
@@ -44,21 +45,22 @@ class PostsController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|mimes:jpg,png,jpeg|max:5048'
+            'file' => 'required|mimes:jpg,png,jpeg|max:5048'
         ]);
 
-        $newImageName = uniqid() .'-'. $request->title . '.' .
-        $request->image->extension();
+        $newFileName = uniqid() .'-'. $request->title . '.' .
+        $request->file->extension();
 
-        $request->image->move(public_path('images'), $newImageName);
+        $request->file->move(public_path('images'), $newFileName);
 
         Post::create([
             'title' =>$request->input('title'),
             'description' =>$request->input('description'),
             'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
-            'image_path' => $newImageName,
+            'image_path' => $newFileName,
             'user_id' => auth()->user()->id
         ]);
+
 
         return redirect('/music_lessons')
             ->with('message', 'Your post has been added!');
@@ -106,11 +108,10 @@ class PostsController extends Controller
             ->update([
                 'title' =>$request->input('title'),
                 'description' =>$request->input('description'),
-                'slug' => SlugService::createSlug(Post::class, 'slug',
-                $request->title),
+                'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
                 'user_id' => auth()->user()->id     
             ]);
-
+        
         return redirect('/music_lessons')
             ->with('message', 'Your post has been updated!');
     }
