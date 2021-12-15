@@ -60,22 +60,22 @@
 
             <ul class="py-4 sm:text-s pt-4 text-gray-100">
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/blog">
                         What we do
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/about">
                         Address
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/about">
                         Phone
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/about">
                         Contact
                     </a>
                 </li>
