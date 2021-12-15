@@ -17,9 +17,12 @@
 		<link rel="stylesheet" href="./css/tailwind.css">
 		<!-- Scripts -->
 		<script src="{{ asset('js/app.js') }}" defer></script>
+
+		<script src="{{ asset('js/app1.js') }}" defer></script>
     
     	<!-- Styles -->
     	<link href="{{ mix('css/app.css') }}" rel="stylesheet">
+		
 	</head>
 	<body>
     
