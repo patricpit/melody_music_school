@@ -7,10 +7,10 @@
   <img class="mySlides w3-animate-fading" src="img/p3.jpg" style="width:100%">
   
 </div>
-<p class="text-l text-gray_700 pt-6 pb-8 leading-8 font-light">St Dominics Orchestra is situated in Lagos Nigeria, At St Dominics catholic church Yaba Lagos...
+<p class="text-l text-gray_700 pt-6 pb-8 leading-8 font-light">St. Dominics Orchestra is situated in Lagos Nigeria, at St. Dominics catholic church Yaba Lagos...
 For bookings and sponsorship:
 Email: stdominicsorchestra@gmail.com
-Call: +08064263154 or 08173969776
+Call: 08064263154 or 08173969776
 </p>
 
 
