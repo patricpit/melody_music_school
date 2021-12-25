@@ -75,8 +75,8 @@ body {
 						</div>
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center space-x-1">
-							<a href="/" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300"">Home</a>
-							<a href="/about" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">About</a>
+							<a href="/" class="py-4 px-2 text-gray-100 border-green-500 font-semibold">Home</a>
+							<a href="/about" class="py-4 px-2 text-gray-100 font-semibold border-green-500 hover:border-b-4 border-green-500 transition duration-300">About</a>
 							@can('logged-in')
 							<a href="/music_lessons" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">Online-Classes</a>
 							@can('is-admin')
