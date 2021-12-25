@@ -185,8 +185,8 @@ Call: <b>08064263154 or 08173969776</b>
   <img src="img/p3.jpg" style="width:100%">
   <br><br>
   <p><strong>For Bookings and Sponsorship:</strong>
-<p><strong>Email:</strong>stdominicsorchestra@gmail.com</p>
-<p><strong>Call:</strong>08064263154, 08173969776</p>
+<p><strong>Email: </strong>stdominicsorchestra@gmail.com</p>
+<p><strong>Call: </strong>08064263154, 08173969776</p>
   </div>
   <div class="column">
   <img src="img/ochfm.jpg" style="width:80%">
