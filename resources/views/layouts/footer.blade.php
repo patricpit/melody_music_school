@@ -12,11 +12,7 @@
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
-                    <a href="/blog">
-                        Blog
-                    </a>
-                </li>
+
                 <li class="pb-1">
                     <a href="/about">
                         About

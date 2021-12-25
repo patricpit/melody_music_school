@@ -371,11 +371,7 @@ Call: <b>08064263154</b> or <b>08173969776</b>
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
-                    <a href="/blog">
-                        Blog
-                    </a>
-                </li>
+
                 <li class="pb-1">
                     <a href="/about">
                         About
