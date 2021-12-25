@@ -58,7 +58,7 @@ body {
 </style>		
 		
 	</head>
-	<body>
+	<body class="bg-primary">
     
 	<header class="bg-green-800">       
 		<!-- Navbar goes here -->
@@ -171,22 +171,22 @@ body {
 
   <section>
      
-  <p class="text-l text-gray_700 pt-6 pb-8 leading-8 font-light">St. Dominics Orchestra is situated in Lagos Nigeria, at St. Dominics catholic church Yaba Lagos...
+  <p class="text-l text-gray_700 pt-6 pb-8 leading-8 font-light bg-white">St. Dominics Orchestra is situated in Lagos Nigeria, at St. Dominics catholic church Yaba Lagos...
 For bookings and sponsorship:
 Email: <b>stdominicsorchestra@gmail.com</b>
 Call: <b>08064263154 or 08173969776</b>
 </p>
 
 <!-- Photo Grid -->
-<div class="row"> 
+<div class="row bg-white"> 
   <div class="column">
   <img src="img/p1.jpg" style="width:95%">
   <img src="img/ochfm1.jpg" style="width:100%">
   <img src="img/p3.jpg" style="width:100%">
   <br><br>
-  <p><strong>For Bookings and Sponsorship:</strong>
-<p><strong>Email: </strong>stdominicsorchestra@gmail.com</p>
-<p><strong>Call: </strong>08064263154, 08173969776</p>
+  <p class="bg-white"><strong>For Bookings and Sponsorship:</strong>
+<p class="bg-white"><strong>Email: </strong>stdominicsorchestra@gmail.com</p>
+<p class="bg-white"><strong>Call: </strong>08064263154, 08173969776</p>
   </div>
   <div class="column">
   <img src="img/ochfm.jpg" style="width:80%">
