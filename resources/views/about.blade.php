@@ -75,8 +75,7 @@ body {
 						</div>
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center space-x-1">
-							<a href="/" class="py-4 px-2 text-gray-100 border-b-4 border-green-500 font-semibold">Home</a>
-							<a href="/blog" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">Blog</a>
+							<a href="/" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300"">Home</a>
 							<a href="/about" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">About</a>
 							@can('logged-in')
 							<a href="/music_lessons" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">Online-Classes</a>
@@ -128,8 +127,7 @@ body {
 			<!-- mobile menu -->
 			<div class="hidden mobile-menu">
 				<ul class="">
-					<li class="active"><a href="/" class="block text-sm px-2 py-4 text-gray-100 bg-white-500 font-semibold">Home</a></li>
-					<li><a href="/blog" class="block text-sm px-2 text-gray-100 py-4 hover:bg-green-500 transition duration-300">Blog</a></li>
+					<li class="active"><a href="/" class="py-4 px-2 text-gray-100 font-semibold">Home</a></li>
 					<li><a href="/about" class="block text-sm px-2 text-gray-100 py-4 hover:bg-green-500 transition duration-300">About</a></li>
 					@can('logged-in')
 					<li><a href="/music_lessons" class="block text-sm px-2 text-gray-100 py-4 hover:bg-green-500 transition duration-300">Online-Classes</a></li>
