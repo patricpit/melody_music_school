@@ -11,7 +11,7 @@
                     Music is Life...
                 </h1>
                 <a
-                    href="/blog"
+                    href="#"
                     class="text-center bg-green-50 text-gray-700 py-2 px-4
                     font-bold text-xl uppercase">
                     Read More
@@ -134,291 +134,97 @@
             </div>
         </div>
     </section>
-
-    <section id="learn" class="p-5 bg-success text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2><b>Elements of Music</b></h2>
-                    <br/>
-                    <p class="lead">
-                      <p><b>Melody</b></p>
-                      We might consider melody to be the single most important element within a song. In everyday language, this is the element we call ‘the tune’. In technical terms, however, the melody is a series of pitches, or notes, that are organised to form a shape or pattern. Each individual note is given a length determined by the rhythm of the melody, so we might think of melody as ‘pitch plus time’.
-                    </p>
-                    <br/>
-                    <a href="#" class="btn-btn-light mt-3">
-                        <a href="#" class ="btn btn-primary">Read More</a>
-                    </a>
-                </div>
-                <div class="col-md">
-                    <img src="img/react.svg" class="img-fluid" alt="">
-                </div>
-            </div>
+    <hr/>
+<section>
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b
+    border-green-200">
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2017/12/06/22/11/glasses-3002751_960_720.jpg" width="700" alt="" class="img-fluid">
         </div>
-    </section>
 
-  
-      <section id="instructors" class="p-5 bg-primary">
-        <div class="container">
-          <h2 class="text-center text-white">Our Instructors</h2>
-          <p class="lead text-center text-white mb-5">
-            Our instructors all have 3+ years working as music instructors in the
-            industry
-          </p>
-          <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_1.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Desmond Okeke</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_2.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Chioma Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_3.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Daniel Omeaku</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_4.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Rita Chukwunenye</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-      
-        <br/>
-        <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_5.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Agnes Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-        
-        <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_6.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Angela Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_7.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Nnena Mgbenwelu</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
+        <div class="m-auto sm:m-auto text-left w-4/5 block">
+            <h2 class="text-2xl font-extrabold text-gray-600">
+                Struggling to play a musical instrument?
+            </h2>
+
+            <p class="py-8 text-gray-500 text-s">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+
+            <p class="font-extrabold text-gray-600 text-s pb-9">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, distinctio.
+            </p>
+
+            <a href="#"
+            class="uppercase bg-blue-500 text-gray-100 text-s
+            font-extrabold py-3 px-8 rounded-3xl">
+            Find Out More
+            </a>
 
         </div>
-      </div>
-      </section>
-
-<!-- Contact & Map -->
-<section class="p-5">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-md">
-          <h2 class="text-center mb-4">Contact Info</h2>
-          <ul class="list-group list-group-flush lead">
-            <li class="list-group-item">
-              <span class="fw-bold">Main Location:</span> Melody-Music School address
-            </li>
-            <li class="list-group-item">
-              <span class="fw-bold">Enrollment Phone:</span> +234-
-            </li>
-            
-            <li class="list-group-item">
-              <span class="fw-bold">Enrollment Email:</span> 
-              enroll@cdorchestra.org
-            </li>
-            
-          </ul>
-        </div>
-        <div class="col-md">
-          <div id="map"></div>
-        </div>
-      </div>
     </div>
-  </section>
 
-    <!-- Modal -->
-    <div
-    class="modal fade"
-    id="enroll"
-    tabindex="-1"
-    aria-labelledby="enrollLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="enrollLabel">Enrollment Form</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <p class="lead">Fill out this form and we will get back to you</p>
-          <form>
-            <div class="mb-3">
-              <label for="first-name" class="col-form-label">
-                First Name:
-              </label>
-              <input type="text" class="form-control" id="first-name" />
-            </div>
-            <div class="mb-3">
-              <label for="last-name" class="col-form-label">Last Name:</label>
-              <input type="text" class="form-control" id="last-name" />
-            </div>
-            <div class="mb-3">
-              <label for="email" class="col-form-label">Email:</label>
-              <input type="email" class="form-control" id="email" />
-            </div>
-            <div class="mb-3">
-              <label for="phone" class="col-form-label">Phone:</label>
-              <input type="tel" class="form-control" id="phone" />
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-          <button type="button" class="btn btn-primary">Submit</button>
-        </div>
-      </div>
+    <div class="text-center p-15 bg-black text-white">
+        <h2 class="text-2xl pb-5 text-l">
+            I'm an expert in...
+        </h2>
+
+        <span class="font-extrabold block text-3xl py-1">
+            Violin
+        </span>
+        <span class="font-extrabold block text-3xl py-1">
+            Piano
+        </span>
+        <span class="font-extrabold block text-3xl py-1">
+            Electric Guitar
+        </span>
+        <span class="font-extrabold block text-3xl py-1">
+            Saxophone
+        </span>
     </div>
-  </div>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <div class="text-center py-15">
+        <span class="uppercase font-extrabold text-s text-gray-400">
+            Music Lessons
+        </span>
 
-  <script>
-    mapboxgl.accessToken =
-      'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-71.060982, 42.35725],
-      zoom: 18,
-    })
-  </script>
+        <h2 class="text-4xl font-bold py-10">
+            Recent Posts
+        </h2>
 
+        <p class="m-auto w-4/5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+            totam tempora accusamus. 
+        </p>
+    </div>
+
+    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+        <div class="flex bg-yellow-700 text-gray-100 pt-9">
+            <div class="m-auto pt-4 pb-10 sm:m-auto w-4/5 block">
+                <span class="uppercase text-xs">
+                Certificate courses in Music
+                </span>
+
+                <h3 class="text-xl font-bold py-10">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </h3>
+
+                <a 
+                    href="#"
+                    class="uppercase bg-transparent border-2 border-green-100
+                    text-gray-100 texr-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Find Out More
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2017/07/12/10/44/orchestra-2496505_960_720.jpg" width="700" alt="">
+        </div>
+    </div>
+  
+  <section>   
+
+    
 @endsection
