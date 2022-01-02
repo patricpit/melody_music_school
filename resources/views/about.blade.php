@@ -25,40 +25,34 @@
 
       <style>
       * {
-  box-sizing: border-box;
-}
+          margin: 0;
+          padding: 0;
+          font-family:sans-serif;
+      }
+      body{
+          background: #ecf4fb;
+      }
+      .img-gallery{
+        width: 80%;
+        margin:100px auto 50px;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 30px;
+      }
+      .img-gallery img{
+          width: 100%;
+          cursor: pointer;
+      }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-.column img {
-  margin-top: 12px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+      .img-gallery img:hover{
+          transform: scale(0.8) rotate(-15deg);
+          border-radius: 20px;
+          box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+      }
 </style>		
 		
 	</head>
-	<body class="bg-primary">
+	<body class="bg-smoke">
     
 	<header class="bg-green-800">       
 		<!-- Navbar goes here -->
@@ -174,27 +168,14 @@ For bookings and sponsorship:
 Email: <b>stdominicsorchestra@gmail.com</b>
 Call: <b>08064263154</b> or <b>08173969776</b>
 </p>
-
-<!-- Photo Grid -->
-<div class="row bg-white"> 
-  <div class="column">
-  <img src="img/p1.jpg" style="width:95%">
-  <img src="img/ochfm1.jpg" style="width:100%">
-  <img src="img/p3.jpg" style="width:100%">
-  <br><br>
-  <p class="bg-white"><strong>For Bookings and Sponsorship:</strong>
-<p class="bg-white"><strong>Email: </strong>stdominicsorchestra@gmail.com</p>
-<p class="bg-white"><strong>Call: </strong>08064263154, 08173969776</p>
-  </div>
-  <div class="column">
-  <img src="img/ochfm.jpg" style="width:80%">
-  <img src="img/p4.jpg" style="width:95%">
-  <img src="img/p7.jpg" style="width:95%">
-  </div>
-  
-</div>
-
-      </section>
+<div class="img-gallery">
+  <img src="img/p1.jpg">
+  <img src="img/p3.jpg">
+  <img src="img/ochfm.jpg">
+  <img src="img/ochfm1.jpg">
+  <img src="img/p4.jpg">
+  <img src="img/p7.jpg">
+</div>     
 
       <section id="instructors" class="p-5 bg-primary">
         <div class="container">

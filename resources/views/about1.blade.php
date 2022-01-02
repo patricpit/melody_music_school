@@ -23,28 +23,39 @@
     	<!-- Styles -->
     	<link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-        <style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+      <style>
+      * {
+  box-sizing: border-box;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+body {
+  margin: 0;
+  font-family: Arial;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
+.header {
   text-align: center;
+  padding: 32px;
 }
-</style>	
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>		
 		
 	</head>
 	<body class="bg-primary">
@@ -157,194 +168,34 @@ div.desc {
             @include('partials.alerts')
 
   <section>
+     
   <p class="text-l text-gray_700 pt-6 pb-8 leading-8 font-light bg-white">St. Dominics Orchestra is situated in Lagos Nigeria, at St. Dominics catholic church Yaba Lagos...
 For bookings and sponsorship:
 Email: <b>stdominicsorchestra@gmail.com</b>
 Call: <b>08064263154</b> or <b>08173969776</b>
-</p> 
-
-<div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_1.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Desmond Okeke</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_2.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Chioma Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_3.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Daniel Omeaku</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_4.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Rita Chukwunenye</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-      
-        <br/>
-        <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_5.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Agnes Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-        
-        <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_6.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Angela Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card bg-light">
-                <div class="card-body text-center">
-                  <img
-                    src="{{ URL::to('/images/instr_7.jpg') }}"
-                    class="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 class="card-title mb-3"><strong>Nnena Mgbenwelu</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                </div>
-              </div>
-            </div>
-
-        </div>
+</p>
 
 <!-- Photo Grid -->
-<div class="gallery bg-white">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="img/p1.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+<div class="row bg-white"> 
+  <div class="column">
+  <img src="img/p1.jpg" style="width:95%">
+  <img src="img/ochfm1.jpg" style="width:100%">
+  <img src="img/p3.jpg" style="width:100%">
+  <br><br>
+  <p class="bg-white"><strong>For Bookings and Sponsorship:</strong>
+<p class="bg-white"><strong>Email: </strong>stdominicsorchestra@gmail.com</p>
+<p class="bg-white"><strong>Call: </strong>08064263154, 08173969776</p>
+  </div>
+  <div class="column">
+  <img src="img/ochfm.jpg" style="width:80%">
+  <img src="img/p4.jpg" style="width:95%">
+  <img src="img/p7.jpg" style="width:95%">
+  </div>
+  
 </div>
 
-<div class="gallery bg-white">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img/p1.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+      </section>
 
-<div class="gallery bg-white">
-  <a target="_blank">
-    <img src="img/p4.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery bg-white">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img/p4.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-</section>
       <section id="instructors" class="p-5 bg-primary">
         <div class="container">
           <h2 class="text-center text-white">Our Instructors</h2>
@@ -617,7 +468,6 @@ Call: <b>08064263154</b> or <b>08173969776</b>
 
         </div>
     </div>
-
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6 lead text-center">
         Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
     </p>
