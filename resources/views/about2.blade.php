@@ -49,8 +49,6 @@
           border-radius: 20px;
           box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
       }
-
-      
 </style>		
 		
 	</head>
@@ -170,17 +168,17 @@ For bookings and sponsorship:
 Email: <b>stdominicsorchestra@gmail.com</b>
 Call: <b>08064263154</b> or <b>08173969776</b>
 </p>
-
 <div class="img-gallery">
   <img src="img/p1.jpg">
-  <img src="img/p3.jpg">
   <img src="img/ochfm.jpg">
+  <img src="img/p3.jpg">
+  
   <img src="img/ochfm1.jpg">
   <img src="img/p7.jpg">
-  <img src="img/p13.jpg"> 
-</div>
-   
-      </section>
+  <img src="img/p4.jpg">
+  
+</div>     
+
       <section id="instructors" class="p-5 bg-primary">
         <div class="container">
           <h2 class="text-center text-white">Our Instructors</h2>
@@ -457,6 +455,5 @@ Call: <b>08064263154</b> or <b>08173969776</b>
         Copyright &copy; 2021 code with Peter Ndiuwem Patrick. All rights Reserved
     </p>
 </footer>
-
 	</body>
 </html>

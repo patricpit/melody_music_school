@@ -58,14 +58,18 @@
         <div class="container">
             <div class="row text-center g-4">
                 <div class="col-md">
-                    <div class="card bg-dark text-light">
+                    <div class="card bg-smoke">
                         <div class="card-body text-center">
                            <div class="h1 mb-3">
-                             <i class="bi bi-laptop"></i>
+                           <img
+                    src="{{ URL::to('/img/p8.jpg') }}"
+                    class="#"
+                    alt=""
+                  />
                            </div>
-                           <h3 class="card-title">
+                           <h3 class="card-title"><strong>
                                E-learning 
-                           </h3> 
+                        </strong></h3> 
                            <p class="card-text">
                              Online classes with video tutorials. Music learning, even on the go.  
                            </p>
@@ -75,14 +79,18 @@
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card bg-secondary text-light">
+                    <div class="card bg-smoke">
                         <div class="card-body text-center">
                            <div class="h1 mb-3">
-                             <i class="bi bi-person-square"></i>
+                           <img
+                    src="{{ URL::to('/img/p9.png') }}"
+                    class="#"
+                    alt=""
+                  />
                            </div>
-                           <h3 class="card-title">
+                           <h3 class="card-title"><strong>
                                Professionals
-                           </h3> 
+                        </strong></h3> 
                            <p class="card-text">
                              Seasoned professional instructors, with over 3 years work experience.  
                            </p>
@@ -92,14 +100,14 @@
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card bg-dark text-light">
+                    <div class="card bg-smoke">
                         <div class="card-body text-center">
                            <div class="h1 mb-3">
-                             <i class="bi bi-people"></i>
+                           <img src="img/p10.png">
                            </div>
-                           <h3 class="card-title">
+                           <h3 class="card-title"><strong>
                                In Person
-                           </h3> 
+                        </strong></h3> 
                            <p class="card-text">
                              One on one tutoring and instrument learning.    
                            </p>
