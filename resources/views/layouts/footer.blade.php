@@ -56,7 +56,7 @@
 
             <ul class="py-4 sm:text-s pt-4 text-gray-100">
                 <li class="pb-1">
-                    <a href="/blog">
+                    <a href="/">
                         What we do
                     </a>
                 </li>

@@ -40,7 +40,6 @@
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center space-x-1">
 							<a href="/" class="py-4 px-2 text-gray-100 border-b-4 border-green-500 font-semibold">Home</a>
-							<a href="/blog" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">Blog</a>
 							<a href="/about" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">About</a>
 							@can('logged-in')
 							<a href="/music_lessons" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">Online-Classes</a>
