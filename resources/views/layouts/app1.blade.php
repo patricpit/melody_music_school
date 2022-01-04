@@ -92,7 +92,6 @@
 			<div class="hidden mobile-menu">
 				<ul class="">
 					<li class="active"><a href="/" class="block text-sm px-2 py-4 text-gray-100 bg-white-500 font-semibold">Home</a></li>
-					<li><a href="/blog" class="block text-sm px-2 text-gray-100 py-4 hover:bg-green-500 transition duration-300">Blog</a></li>
 					<li><a href="/about" class="block text-sm px-2 text-gray-100 py-4 hover:bg-green-500 transition duration-300">About</a></li>
 					@can('logged-in')
 					<li><a href="/music_lessons" class="block text-sm px-2 text-gray-100 py-4 hover:bg-green-500 transition duration-300">Online-Classes</a></li>
