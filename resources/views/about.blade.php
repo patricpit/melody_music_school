@@ -164,13 +164,10 @@
             @include('partials.alerts')
 
   <section id="img-gallery" class="bg-light">
-   
-  <p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white"><b>St. Dominics Orchestra</b> is situated in Lagos Nigeria, at St. Dominics catholic church Yaba Lagos.</p>
-<p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white">For bookings and sponsorship:
-Email: <b>stdominicsorchestra@gmail.com</b></p>
-<p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white">Call: <b>08064263154</b> or <b>08173969776</b>
-</p>
-<hr/>
+
+<h1 class="text-center p-3 bg-black" style="color:yellow;">Mission and Vision</h1>
+<p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white"><b>Our Mission:</b> To empower idividuals through music training.</p>
+<p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white"><b>Our Vision:</b> To inspire a multitude of people to find peace and focus in instrumental music, thereby being the largest promoter of musical in our generation.</p>
 
 <div class="img-gallery">
   <img src="img/p1.jpg">
@@ -178,7 +175,7 @@ Email: <b>stdominicsorchestra@gmail.com</b></p>
   <img src="img/ochfm.jpg">
   <img src="img/ochfm1.jpg">
   <img src="img/p7.jpg">
-  <img src="img/p13.jpg"> 
+  <img src="img/p14.jpg"> 
 </div>
 <br/>
       
