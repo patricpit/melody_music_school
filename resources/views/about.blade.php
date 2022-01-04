@@ -165,7 +165,7 @@
 
   <section id="img-gallery" class="bg-light">
 
-<h1 class="text-center p-3 bg-black" style="color:yellow;">Mission and Vision</h1>
+<h1 class="text-center p-3 bg-black" style="color:yellow;"><b>Mission and Vision</b></h1>
 <p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white"><b>Our Mission:</b> To empower idividuals through music training.</p>
 <hr/>
 <p class="text-l text-gray_700 pt-6 pb-8 leading-8 bg-white"><b>Our Vision:</b> To inspire a multitude of people to find peace and focus in instrumental music, thereby being the largest promoter of musical in our generation.</p>
