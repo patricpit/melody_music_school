@@ -156,14 +156,15 @@
             </h2>
 
             <p class="py-8 text-gray-500 text-s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                One on one musical instrument training with music instructors.
+                 
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, distinctio.
+                Enroll for music lessons at Orchestra Music School.
             </p>
 
-            <a href="#"
+            <a href="/about"
             class="uppercase bg-blue-500 text-gray-100 text-s
             font-extrabold py-3 px-8 rounded-3xl">
             Find Out More
@@ -201,9 +202,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            beatae fuga animi distinctio perspiciatis adipisci velit maiores
-            totam tempora accusamus. 
+            Elements of music, Musical chords. 
         </p>
     </div>
 
@@ -215,7 +214,7 @@
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    At Orchestra Music School, we have a variety of Certificate courses. 
                 </h3>
 
                 <a 

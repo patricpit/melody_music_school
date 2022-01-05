@@ -199,11 +199,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Desmond Okeke</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Desmond Okeke</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
@@ -220,11 +217,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Chioma Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Chioma Anosike</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
@@ -241,11 +235,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Daniel Omeaku</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Daniel Omeaku</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
@@ -262,11 +253,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Rita Chukwunenye</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Rita Chukwunenye</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
@@ -286,11 +274,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Agnes Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Agnes Anosike</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
@@ -307,11 +292,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Angela Anosike</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Angela Anosike</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
@@ -327,11 +309,8 @@
                     class="rounded-circle mb-3"
                     alt=""
                   />
-                  <h3 class="card-title mb-3"><strong>Nnena Mgbenwelu</strong></h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                  </p>
+                  <h3>Nnena Mgbenwelu</h3>
+                  
                   <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
                   <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
