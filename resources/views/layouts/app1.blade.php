@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
 		<!-- CSRF Token -->
 		<meta name="csrf-token" content="{{ csrf_token() }}">
-		<title>Orchestra Music School</title>
+		<title>ChrisDavies Orchestra</title>
 		<link rel="stylesheet" href="./css/tailwind.css">
 		<!-- Scripts -->
 		<script src="{{ asset('js/app.js') }}" defer></script>
@@ -33,13 +33,13 @@
 						<div>
 							<!-- Website Logo -->
 							<a href="#" class="flex items-center py-4 px-2">
-								<img src="{{ URL::to('/img/oms.png') }}" alt="Logo" class="h-10 w-80 mr-2">
+								<img src="{{ URL::to('/img/cdo.png') }}" alt="Logo" class="h-10 w-80 mr-2">
 								<span class="font-semibold text-white-500 text-lg"></span>
 							</a>
 						</div>
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center space-x-1">
-							<a href="/" class="py-4 px-2 text-gray-100 border-b-4 border-green-500 font-semibold">Home</a>
+							<a href="/" class="py-4 px-2 text-gray-100 border-green-500 font-semibold">Home</a>
 							<a href="/about" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">About</a>
 							@can('logged-in')
 							<a href="/music_lessons" class="py-4 px-2 text-gray-100 font-semibold hover:text-none-500 transition duration-300">Online-Classes</a>

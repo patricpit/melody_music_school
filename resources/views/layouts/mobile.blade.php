@@ -13,7 +13,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
 		<!-- CSRF Token -->
 		<meta name="csrf-token" content="{{ csrf_token() }}">
-		<title>Orchestra Music School</title>
+		<title>ChrisDavies Orchestra</title>
 		<link rel="stylesheet" href="./css/tailwind.css">
 		<!-- Scripts -->
 		<script src="{{ asset('js/app.js') }}" defer></script>
@@ -36,7 +36,7 @@
 						<div>
 							<!-- Website Logo -->
 							<a href="#" class="flex items-center py-4 px-2">
-								<img src="{{ URL::to('/img/oms.png') }}" alt="Logo" class="h-10 w-80 mr-2">
+								<img src="{{ URL::to('/img/cdo.png') }}" alt="Logo" class="h-10 w-80 mr-2">
 								<span class="font-semibold text-white-500 text-lg"></span>
 							</a>
 						</div>
